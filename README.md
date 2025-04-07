@@ -14,9 +14,9 @@ The provided files include:
 2. _di_transcription_template.py_: a sample main file that includes both the transcription call and a framework with some example functions for post-extraction text-cleaning. 
 
 ## Instructions
-1. Set up Document Intelligence on Microsoft Azure
+1. [Set up Document Intelligence](SetupDocIntel.md) on Microsoft Azure
 2. Download _doc_intel_analyze.py_ and _di_transcription_template.py_
-3. In _doc_intel_analyze.py_, update ENDPOINT and API_KEY to use the Endpoint and Key values located in your Document Intelligence resource on Microsoft Azure (refer to step 1)
+3. In _doc_intel_analyze.py_, update ENDPOINT and API_KEY to use the Endpoint and Key values located in your Document Intelligence resource on Microsoft Azure (refer to [step 1](SetupDocIntel.md))
 4. Place any PDFs you wish to transcribe into the main folder (or another folder, but you will need to change 'SOURCE_DIR' below) where you've installed this project on your machine.
 5. Create folders for the transcribed text files and the cleaned text files (data and cleaned respectively). If you use other directory names (or if you have the original PDFs stored elsewhere), update the SOURCE_DIR, DATA_DIR, and CLEANED_DIR entries in _di_transcription_template.py_
 ```
