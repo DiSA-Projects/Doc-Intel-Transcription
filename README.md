@@ -13,7 +13,16 @@ The provided files include:
 1. _doc_intel_analyze_py_: a simplified version of the example code Microsoft offers for calling Document Intelligence; and,
 2. _di_transcription_template.py_: a sample main file that includes both the transcription call and a framework with some example functions for post-extraction text-cleaning. 
 
-## Instructions
+## Instructions (Jupityr or Google Colab Notebook)
+If you want to test this process out without installing anything new, you can use the Notebook file (for either Google Colab or Jupityr Notebook). Running large batches will be significantly slower on a web-based notebook though.
+1. [Set up Document Intelligence](SetupDocIntel.md) on Microsoft Azure
+2. Download _Demo_DocIntelligence_Transcription.ipynb_
+3. Set your Endpoint and Key in the file
+4. Follow the steps in the Notebook
+
+
+## Instructions (Local Install)
+If you expect to be processing a lot of files, it is recommended that you set up a local installation of the code and run it on a higher-end computer.
 1. [Set up Document Intelligence](SetupDocIntel.md) on Microsoft Azure
 2. Download _doc_intel_analyze.py_ and _di_transcription_template.py_
 3. In _doc_intel_analyze.py_, update ENDPOINT and API_KEY to use the Endpoint and Key values located in your Document Intelligence resource on Microsoft Azure (refer to [step 1](SetupDocIntel.md))
